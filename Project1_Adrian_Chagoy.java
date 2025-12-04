@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Project1_Adrian_Chagoy {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // scanner to read user input
-        List<Integer> deck = new ArrayList<>(); // list to store 52 cards
+            Scanner input = new Scanner(System.in); // scanner to read user input
+                    List<Integer> deck = new ArrayList<>(); // list to store 52 cards
 
         // create a deck with 52 cards
         for (int i = 0; i < 52; i++) deck.add(i);
